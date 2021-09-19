@@ -1,0 +1,63 @@
+  
+  /*----- settings thanks page -----*/
+  body {
+    font-family: "Source Sans Pro", sans-serif;
+    max-width: 1440px;
+    height: 100vh;
+    background-image: linear-gradient( to right, rgba(12, 13, 30, 0.6), rgba(12, 13, 30, 0.6)), url(../images/bg.jpg);
+    background-repeat: no-repeat;
+  }
+  #tkscontainer {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    z-index: 9;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    margin: auto;
+    background: #090a19;
+    border: 1px solid #19f2be;
+    border-radius: 1rem;
+  }
+  #tkscontainer header img {
+    position: relative;
+    width: 180px;
+    margin: 2.5rem auto 0 auto;
+  }
+  #tkscontainer p {
+    position: relative;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    width: 85%;
+    margin: 0.5rem auto 2rem auto;
+  }
+  #tkscontainer strong {
+    font-size: 1.4rem;
+    text-transform: none;
+  }
+  #tkscontainer #socialsContainer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  #tkscontainer #socialsContainer img{
+    height:45px;
+    padding-bottom: 5px;
+  }
+  #tkscontainer #socialsContainer .socials:nth-child(1) img{
+    height:50px;
+  }
+  #tkscontainer a{
+    border: none;
+  }
+  #tkscontainer #socialsContainer img:hover {
+    color: #19f2be;
+    border-bottom: 1px solid #19f2be;
+  }
+  

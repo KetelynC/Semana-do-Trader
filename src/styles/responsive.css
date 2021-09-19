@@ -1,0 +1,74 @@
+  @media screen and (max-width:970px){
+    #container{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    #call{
+      width: 90%;
+      margin-top: 2.2rem;
+      margin-bottom: 2rem;
+    }
+    main{
+      width: 80%;
+      margin-bottom: 2rem;
+    }
+    form{
+      width: 80%;
+    }
+    /*----- Tks page -----*/
+    #tkscontainer {
+      width: 60%;
+    }
+  }
+  @media screen and (max-width:800px){
+    h1{
+      font-size: 2rem;
+    }
+    span strong {
+      font-size: 1.5rem;
+    }
+    span {
+      font-size: 1.8rem;
+    }
+    p {
+      font-size: 1.4rem;
+      line-height: 1.5rem;
+      margin-top: 15px;
+    }
+    header img{
+      width: 170px;
+    }
+    #call{
+      margin-top: 2.5rem;
+    }
+  }
+  
+  @media screen and (max-width:500px){
+    #call{
+      margin-bottom: 3rem;
+    }
+    /*----- Tks page -----*/
+    #tkscontainer {
+       width: 90%;
+    }
+  }
+  @media screen and (max-width:425px){
+    #call{
+      margin-top: 4rem;
+      margin-bottom: 5rem;
+    }
+    main{
+      width: 95%;
+    }
+    form{
+      width: 90%;
+    }
+  }
+  @media screen and (max-width:390px){
+    #call{
+      margin-top: 4rem;
+      margin-bottom: 10rem;
+    }
+  }
+  
